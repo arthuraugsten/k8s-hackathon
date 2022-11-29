@@ -1,0 +1,13 @@
+﻿@model int
+@{
+    ViewData["Title"] = "Home Page";
+}
+<div>
+    <div class="text-center mb-4">
+        <h1 class="display-1">@Model votes counted!</h1>
+    </div>
+
+    <div class="text-center">
+        <a class="btn btn-primary" asp-action="Index">Click here to Refresh</a>
+    </div>
+</div>
